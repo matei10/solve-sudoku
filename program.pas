@@ -3,7 +3,7 @@ uses SysUtils;
 const n_mat = 9;
       version = '1.4.0'; 
       autor = 'Micu Matei-Marius';
-      git_repo = 'https://github.com/matei10';
+      git_repo = 'https://github.com/matei10/solve-sudoku';
       gmail = 'micumatei@gmail.com';
       licenta = 'The MIT License (MIT)';
 
