@@ -18,8 +18,8 @@ sau puteti compila codul sursa.
     
    
  Urmatoarele obtiuni sunt disponibile :  
-`  -f  `
-`  -?  `
+`  -h  `   
+`  -?  `   
 `  --help      `   : afiseaza ajutor
   
 
