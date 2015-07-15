@@ -375,7 +375,7 @@ if ParamCount > 0 then { s-a transmis un parametru }
     else
         for i := 1 to ParamCount do
             begin
-            writeln(' Citim fisierul :', ParamStr(i));
+            writeln(' Citim fisierul : ', ParamStr(i));
             if FileExists(ParamStr(i)) then
                 begin
                 citire(mat_n, ParamStr(i));

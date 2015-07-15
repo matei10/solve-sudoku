@@ -38,19 +38,20 @@ sau puteti compila codul sursa.
 9 2 3 5 8 7 6 1 4   
   
     
+    a  
 ### Va produce   
- Citim fisierul :examples/input.txt
-   2    5    8    7    3    6    9    4    1 
-   6    1    9    8    2    4    3    5    7 
-   4    3    7    9    1    5    2    6    8 
-   3    9    5    2    7    1    4    8    6 
-   7    6    2    4    9    8    1    3    5 
-   8    4    1    6    5    3    7    2    9 
-   1    8    4    3    6    9    5    7    2 
-   5    7    6    1    4    2    8    9    3 
-   9    2    3    5    8    7    6    1    4 
-
-
+ Citim fisierul : examples/input.txt
+   2    5    8    7    3    6    9    4    1   
+   6    1    9    8    2    4    3    5    7   
+   4    3    7    9    1    5    2    6    8   
+   3    9    5    2    7    1    4    8    6   
+   7    6    2    4    9    8    1    3    5   
+   8    4    1    6    5    3    7    2    9   
+   1    8    4    3    6    9    5    7    2   
+   5    7    6    1    4    2    8    9    3   
+   9    2    3    5    8    7    6    1    4   
+  
+  
 Acest program considera fiecare element al matrici un nod intr-un graf cu 81 de elemente, legaturile dintre noduri sunt bazate pe faptul daca acele noduri se influineteaza unele pe altele. Folosint acest model, aplicam metoda Backtraking in functie de numarul de valori pe care un nod le poate lua, incepem cu elementele care au numarul cel mai mic de valori posibile ( valorile fiind restrictionate de nodurile care au o influienta asupra nodurilor ).
   
 Programul va afisa "Nu are solutie", in cazul in care nu exista solutii pentru matrice.
