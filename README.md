@@ -38,7 +38,7 @@ sau puteti compila codul sursa.
 9 2 3 5 8 7 6 1 4   
   
     
-    a  
+       
 ### Va produce   
  Citim fisierul : examples/input.txt
    2    5    8    7    3    6    9    4    1   
